@@ -1,0 +1,92 @@
+div > .card {
+  border-radius: 30px !important;
+}
+
+.items .item:first-child .rallita_decoracion:before {
+  border-radius: 30px 0px 0px 0px !important;
+}
+
+.items .item:last-child .rallita_decoracion:before {
+  border-radius: 0px 0px 30px 0px !important;
+}
+.pricing-service {
+  text-align: center;
+}
+
+.test-pause {
+  /* background-color: red !important; */
+  text-align: center;
+  padding: 10px;
+  padding-bottom: 130px;
+  width: 100%;
+}
+.pricing-service img,
+.img-pause {
+  width: 30%;
+}
+.pricing-service p {
+  width: 80%;
+  margin: 0px auto;
+}
+
+.pricing-service label {
+  cursor: pointer;
+}
+
+.suscripcion {
+  cursor: pointer;
+}
+
+.suscripcion:hover {
+  text-decoration: underline;
+}
+
+.nuevo-dia-usuario {
+  border: 0;
+  border-bottom: 1px solid #000;
+  width: 50%;
+  padding: 5px 9px;
+  height: max-content;
+  margin-top: 5px;
+  font-size: 13px;
+}
+
+.card-area {
+  /* box-shadow: 0px 8px 32px #00000022 !important; */
+  height: 250px;
+  justify-content: end !important;
+}
+
+.pregunta_Card {
+  margin: 15px 0px;
+  /* border-bottom: 1px solid #00000040;
+  border-top: 1px solid #00000040; */
+  padding: 5px 0px;
+}
+
+@media only screen and (max-width: 768px) {
+  .pricing-service {
+    margin-top: 50px;
+  }
+  .pricing-service img {
+    width: 40%;
+  }
+
+  .nuevo-dia-usuario {
+    width: 80%;
+    padding: 5px 8px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .pricing-service {
+    margin-top: 50px;
+  }
+  .pricing-service img {
+    width: 80%;
+  }
+  .nuevo-dia-usuario {
+    width: 90%;
+    padding: 5px 8px;
+  }
+}

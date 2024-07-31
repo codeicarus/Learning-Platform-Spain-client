@@ -1,0 +1,23 @@
+.Pregunta_schema {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #00000050;
+  padding-bottom: 20px;
+}
+
+.botones {
+  margin-top: 10px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.danger-button {
+  background-color: #eb636b;
+  border: 0;
+  border-radius: 20px;
+  color: #fff;
+  padding: 3px 9px;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}

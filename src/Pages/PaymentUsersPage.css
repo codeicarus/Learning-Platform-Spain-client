@@ -1,0 +1,56 @@
+.cards-users {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cards-users .user-Card,
+.cards-users .rechazado {
+  min-width: 300px;
+  width: 30%;
+  box-shadow: 0px 8px 32px #00000034;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
+.cards-users .rechazado {
+  border: 3px solid rgb(227, 186, 186);
+}
+
+.cards-users .user-Card p,
+.cards-users .rechazado p {
+  margin: 7px 0px;
+  text-align: left;
+}
+
+.cards-users .user-Card .opt,
+.cards-users .rechazado .opt {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 9px;
+}
+
+.cards-users .user-Card .opt > *,
+.cards-users .rechazado > * {
+  flex: 1;
+}
+
+.cards-users .user-Card .opt .act,
+.cards-users .rechazado .opt .act {
+  cursor: pointer;
+  background-color: #1dd21d24;
+  border: 1px solid #16af16;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+
+.cards-users .user-Card .opt .rec,
+.cards-users .rechazado .opt .rec {
+  cursor: pointer;
+  background-color: #af16163d;
+  border: 1px solid #af1616;
+  border-radius: 20px;
+  padding: 5px 10px;
+}

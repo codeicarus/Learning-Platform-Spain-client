@@ -1,0 +1,135 @@
+.content {
+  margin: 10px 0px 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.confirmPago {
+  border-right: 1px solid #0e0e0e32;
+  padding: 0px 3rem;
+}
+
+.confirmPago .bizumm,
+.confirmPago .transferencia {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.confirmPago .bizumm img {
+  min-width: 200px;
+}
+
+.bizumm p,
+.transferencia p {
+  border: 1px solid #0e0e0e55;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 4px 6px;
+  border-radius: 4px;
+  height: max-content;
+  width: max-content;
+}
+
+.impotante-info {
+  border-top: 1px solid #0e0e0e55;
+  text-align: left;
+  padding: 15px 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.env-form {
+  display: flex;
+  height: 40px;
+  align-items: center;
+}
+
+.env-form input {
+  width: 80%;
+  height: 40px;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.env-form button {
+  width: 20%;
+  height: 40px;
+  border: 0;
+  background-color: var(--primary-color);
+  color: #fff;
+  border-radius: 0px 20px 20px 0px;
+}
+
+.info-promo {
+  border: 1px solid #0e0e0e40;
+  border-radius: 10px;
+  text-align: left;
+  padding: 5px 10px;
+}
+
+.info-promo p {
+  font-size: 15px;
+  margin: 7px 0px;
+}
+
+.ejemplos {
+  width: 50%;
+  border: 1px solid #0e0e0e40;
+  border-radius: 6px;
+  margin: auto;
+  margin-top: 2rem;
+  padding: 0px 20px 20px;
+  position: relative;
+}
+
+.ejemplos .container-title {
+  position: absolute;
+  width: 100%;
+  top: -16px;
+  left: 10px;
+  text-align: center;
+}
+
+.ejemplos .container-title p {
+  font-size: 18px;
+  background-color: #fff;
+  width: max-content;
+  padding: 2px 8px;
+}
+
+@media only screen and (max-width: 867px) {
+  .ejemplos {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .ejemplos .container-title p {
+    font-size: 18px !important;
+  }
+  .ejemplos {
+    width: 85%;
+  }
+  .row {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  .confirmPago {
+    border: 0;
+    border-bottom: 1px solid #0e0e0e40;
+    padding: 0px 1rem;
+  }
+
+  .opt-content {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .bizumm img {
+    width: 50%;
+    height: auto;
+  }
+}

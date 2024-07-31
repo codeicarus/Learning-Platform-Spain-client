@@ -1,0 +1,37 @@
+.simulacro {
+  position: relative;
+}
+.simulacro .opt {
+  position: absolute;
+  right: 0;
+  top: 30%;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.simulacro .edit {
+  cursor: pointer;
+  font-size: 20px;
+  transition: all 0.3s;
+}
+
+.simulacro .edit:hover {
+  transform: scale(1.1);
+}
+.simulacro button {
+  border: 1px solid #0e0e0e47;
+  width: 25px;
+  height: 25px;
+  background-color: #fff;
+  transition: all 0.3s;
+}
+
+.simulacro button:hover {
+  background-color: #e02626;
+  color: #fff;
+}
+
+label[class="text-border"] {
+  font-weight: 600 !important;
+}

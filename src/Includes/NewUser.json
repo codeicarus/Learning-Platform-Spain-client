@@ -1,0 +1,39 @@
+[
+  {
+    "question": "¿Cuánto tiempo llevas preparándote para las oposiciones?",
+    "adm": "Tiempo que lleva preparandose: ",
+    "awnsers": ["Menos de 1 año", "Entre 1 y 3 años", "Más de 3 años"]
+  },
+  {
+    "question": "¿Has hecho alguna vez el segundo ejercicio (Práctico)?",
+    "adm": "Realizo el segundo Ejercicio (Practico): ",
+    "awnsers": ["Si", "No"]
+  },
+  {
+    "question": "¿En qué áreas de la preparación sientes que necesitas más apoyo?",
+    "adm": "Area que necesita mas preparacion/apoyo: ",
+    "awnsers": [
+      "Temario y legislación (Test)",
+      "Ejercicios prácticos y casos reales"
+    ]
+  },
+  {
+    "question": "¿Cuál es tu disponibilidad?",
+    "adm": "Disponibilidad: ",
+    "awnsers": ["Solo estudio", "Estudio y trabajo y/u otras responsabilidades"]
+  },
+  {
+    "question": "Dispones para el estudio de",
+    "adm": "Dispone de estudio en: ",
+    "awnsers": [
+      "Menos de 4 horas al día",
+      "Entre 4 y 7  horas al día",
+      "Más de 7 horas al día"
+    ]
+  },
+  {
+    "question": "¿En qué formato preferirías recibir el material de preparación?",
+    "adm": "Formato de material de Preparacion preferido: ",
+    "awnsers": ["PDF", "Website"]
+  }
+]

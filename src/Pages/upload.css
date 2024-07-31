@@ -1,0 +1,29 @@
+.h3 {
+  padding-left: 4rem;
+}
+.dropzone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  border: 2px dashed #5a92fa;
+  box-shadow: 0px 8px 32px #00000040;
+  border-radius: 10px;
+  margin: auto;
+  min-height: 10rem;
+  max-height: max-content;
+  padding: 20px;
+  text-align: center;
+}
+
+.dropzone svg {
+  color: #313131 !important;
+}
+
+.container-btn {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0px 0px;
+}

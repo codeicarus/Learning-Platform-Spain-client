@@ -1,0 +1,78 @@
+.modal_schema {
+  width: 90%;
+  height: 95%;
+  margin: auto;
+  background-color: #fff;
+  padding: 10px 20px 10px;
+  position: relative;
+  border-radius: 4px;
+}
+
+.logo_modal {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  width: 130px;
+}
+
+.active .carousel-item {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.button_close {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #eb636b;
+  color: #fff;
+  z-index: 99999999;
+  border: 0;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.open_page_schema {
+  position: absolute;
+  top: 3rem;
+  right: 2rem;
+  z-index: 999999;
+  background-color: #ffffff00;
+  padding: 6px 6px 10px 10px;
+  border-radius: 50%;
+  transition: background 0.5s;
+}
+
+.schema_test {
+  top: 2rem;
+  right: 0.5rem;
+}
+
+.open_page_schema:hover {
+  background-color: #ffffff;
+}
+.open_page_schema label {
+  gap: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: max-content;
+  margin: auto;
+  cursor: pointer;
+}
+
+.open_page_schema label:hover {
+  text-decoration: underline;
+}
+
+.button_close:hover {
+  color: #fff;
+  background: linear-gradient(to top, #eb636b, #d7515a);
+}
+
+.button_preguntar_gpt{
+  background-color: #f9ecab;
+  border: 1px solid #00000050 !important;
+  border-radius: 10rem ;
+}

@@ -1,0 +1,169 @@
+.first_login {
+  position: relative;
+  /* border: 1px solid #000000a6; */
+  border-radius: 4px;
+  /* background-color: red; */
+  width: 70%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.first_login .text-title {
+  /* background-color: red; */
+  padding-left: 5px;
+}
+
+.barra_preguntas {
+  position: relative;
+  width: 80%;
+  margin: auto;
+  height: 4px;
+  border-radius: 20px;
+  background-color: #dbdada;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.barra_preguntas div {
+  transition: all 0.5s;
+  background-color: var(--primary-color);
+  width: 0%;
+  height: 100%;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.pregunta {
+  opacity: 0;
+  transform: translateX(50px);
+  animation: viewQuestion 0.5s forwards;
+  width: 50%;
+}
+
+.preguntas-render {
+  display: flex;
+  align-items: start;
+  /* justify-content: space-between; */
+}
+
+.preguntas-render .questin-image {
+  /* height: 300px; */
+  width: 40%;
+  max-height: 300px;
+  height: auto;
+  opacity: 0;
+  transform: translateX(50px);
+  animation: viewQuestion 0.5s forwards;
+}
+
+.img-scale {
+  width: 50%;
+  max-height: 380px;
+  height: auto;
+  opacity: 0;
+  transform: translateX(50px);
+  animation: viewQuestionImage 0.5s forwards;
+}
+
+@keyframes viewQuestion {
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes viewQuestionImage {
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.infor_user_container {
+  border-radius: 3px;
+  /* border: 1px solid #00000044; */
+  padding: 10px;
+}
+
+.infor_user div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #00000044;
+}
+
+.infor_user div span {
+  padding: 15px 5px;
+  width: 60%;
+  /* min-width: 400px; */
+}
+
+.infor_user div .respuesta {
+  text-align: right;
+  width: 40%;
+}
+
+.newpasswodUser {
+  display: flex;
+}
+
+.newpasswodUser .input {
+  width: 80%;
+  border: 0;
+}
+
+.newpasswodUser .input div {
+  width: 100%;
+}
+
+.newpasswodUser button {
+  border-radius: 0 !important;
+  width: 20%;
+}
+
+@media only screen and (max-width: 600px) {
+  .infor_user div span {
+    width: 100%;
+  }
+  .infor_user div .respuesta {
+    text-align: left;
+    width: 100%;
+  }
+}
+
+@media only screen and (width: 700px) {
+  .first_login {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .first_login {
+    width: 100%;
+    margin: auto;
+  }
+
+  .preguntas-render {
+    flex-direction: column;
+    /* background-color: red; */
+    width: 100%;
+  }
+
+  .preguntas-render .questin-image {
+    width: 100%;
+  }
+
+  .options {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .pregunta {
+    width: 100%;
+  }
+}

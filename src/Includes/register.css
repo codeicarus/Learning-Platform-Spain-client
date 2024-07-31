@@ -1,0 +1,29 @@
+.load-animated {
+  color: red;
+}
+
+.buscar-test-id {
+  position: relative;
+  width: 100%;
+  height: 30px;
+  margin-bottom: 15px;
+}
+
+.buscar-test-id input {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #adacac;
+  border-radius: 4px;
+  top: 0;
+  left: 0;
+}
+
+.buscar-test-id button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 0 !important;
+  height: 100%;
+  border-radius: 0px 4px 4px 0px;
+}
